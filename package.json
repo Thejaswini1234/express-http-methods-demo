@@ -1,0 +1,19 @@
+{
+  "name": "hellonodejs",
+  "version": "1.0.0",
+  "description": "My first nodejs project",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start":"node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
